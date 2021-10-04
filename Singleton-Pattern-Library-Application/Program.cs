@@ -6,7 +6,8 @@ namespace Singleton_Pattern_Library_Application
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Librarian librarian = new Librarian();
+            librarian.Work();
         }
     }
 }
